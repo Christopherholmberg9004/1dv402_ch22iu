@@ -11,6 +11,7 @@ namespace exchange_money_v37
         static void Main(string[] args)
         {
             Console.WriteLine("My first app!");
+            Console.WriteLine("\n");
             Console.ReadLine();
         }
     }
