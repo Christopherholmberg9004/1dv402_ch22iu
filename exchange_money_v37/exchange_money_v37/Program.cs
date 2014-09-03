@@ -10,9 +10,18 @@ namespace exchange_money_v37
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("My first app!");
-            Console.WriteLine("\n");
-            Console.ReadLine();
+            
         }
+        static void ReadPositiveDouble(string prompt)
+        {
+        
+        }
+        static void ReadUint(string prompt, unit minValue)
+        {
+
+        }
+        static void SplitIntoDenominations(uint minValue);
+
+        static void ViewMessage(string message, [bool isError = false]);
     }
 }
